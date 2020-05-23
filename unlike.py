@@ -14,7 +14,7 @@ login.send_keys("")  # Insert your username here
 
 password = drive.find_element_by_xpath("""//input[@type="password"]""")
 
-password.send_keys("")  # Insert your username here
+password.send_keys("")  # Insert your password here
 
 drive.find_element_by_xpath("""//div[@data-testid="LoginForm_Login_Button"]""").click()
 
